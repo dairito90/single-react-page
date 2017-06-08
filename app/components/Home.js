@@ -54,3 +54,4 @@ const About = React.createClass({
       );
     }
 });
+export default Home;

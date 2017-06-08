@@ -8,26 +8,7 @@
 
 <body>
     <div id="app"></div>
-    <script type="text/babel">
-    var { Router,
-          Route,
-          IndexRoute,
-          IndexLink,
-          hashHistory,
-          Link } = ReactRouter;
-        var destination = document.querySelector("#app");
-
-        ReactDOM.render(
-  <Router history={hashHistory}>
-    <Route path="/" component={App}>
-      <IndexRoute component={Home}/>
-      <Route path="about" component={About} />
-      <Route path="contact" component={Contact} />
-    </Route>
-  </Router>,
-  destination
-);
-    </script>
+    
 </body>
 </body>
 
